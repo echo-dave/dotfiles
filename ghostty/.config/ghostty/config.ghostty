@@ -1,0 +1,10 @@
+theme = Catppuccin Mocha
+font-family = Hack Nerd Font Mono
+font-size = 13.5
+background-opacity = .9
+background-blur = 20
+window-padding-x = 8,0  
+keybind = cmd+option+h=goto_split:left
+keybind = cmd+option+l=goto_split:right
+keybind = cmd+option+k=goto_split:up
+keybind = cmd+option+j=goto_split:bottom
