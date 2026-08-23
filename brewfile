@@ -1,0 +1,15 @@
+brew "tmux"
+brew "eza"
+brew "curl"
+brew "git"
+brew "powerlevel10k"
+brew "stow"
+cask "ghostty", trusted: true
+brew "fzf"
+brew "fd"
+brew "ripgrep"
+brew "tree-sitter-cli"
+brew "font-hack-nerd-font"
+brew "gh"
+brew "node"
+
