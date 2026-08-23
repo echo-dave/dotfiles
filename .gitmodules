@@ -4,9 +4,9 @@
 [submodule "tmux/.config/tmux/plugins/catppuccin"]
 	path = tmux/.config/tmux/plugins/catppuccin
 	url = git@github.com:catppuccin/tmux.git
-[submodule "tmux/.config/tmux/plugins/tmux.battery"]
-	path = tmux/.config/tmux/plugins/tmux.battery
-	url = git@github.com:tmux-plugins/tmux-battery.git
 [submodule "nvim/.config/nvim"]
 	path = nvim/.config/nvim
 	url = git@github.com:echo-dave/nvimconfig.git
+[submodule "tmux/.config/tmux/plugins/tmux-battery"]
+	path = tmux/.config/tmux/plugins/tmux-battery
+	url = git@github.com:tmux-plugins/tmux-battery.git
