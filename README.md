@@ -17,13 +17,20 @@ git clone --recurse-submodules git@github.com:echo-dave/dotfiles.git
 ## Install deps
 
 ```bash
-brew bundle --file=$HOME/dotfiles/brewfile
+brew bundle --file=$HOME/dotfiles/Brewfile
 gh auth login
 gh ext install meiji163/gh-notify
 
 ```
 
 [gh notify docs](https://github.com/meiji163/gh-notify)
+
+## Stow configs
+
+```bash
+stow --adopt .
+git reset --hard
+```
 
 ## Nvim
 
