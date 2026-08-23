@@ -8,6 +8,12 @@
 - tmux 3.6 with catppuccin 2.3.0, tmux-sensible,
 - brewfile for deps and tools
 
+## Clone with submodules
+
+```bash
+git clone --recurse-submodules git@github.com:echo-dave/dotfiles.git
+```
+
 ## Install deps
 
 ```bash
