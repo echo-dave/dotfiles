@@ -12,4 +12,5 @@ brew "tree-sitter-cli"
 cask "font-hack-nerd-font"
 brew "gh"
 brew "node"
-
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
