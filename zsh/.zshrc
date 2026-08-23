@@ -47,7 +47,7 @@ export LC_CTYPE=en_US.UTF-8
 #colorized ls
  alias ls='ls -G'
  alias du='du -h -d 1'
- alias ll='eza -ah --long --git --git-repos'
+ alias ll='eza -ah --git --git-repos'
  alias ansicolors='msgcat --color=test'
 
 # CLICOLOR=1
