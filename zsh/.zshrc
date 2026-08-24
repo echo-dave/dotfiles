@@ -48,4 +48,7 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # ─── fzf ───
-source <(fzf --zsh)
+[ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
+
+#───eza───
+export BAT_THEME="Catppuccin Mocha"
