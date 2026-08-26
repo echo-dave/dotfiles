@@ -9,3 +9,4 @@ keybind = cmd+option+l=goto_split:right
 keybind = cmd+option+k=goto_split:up
 keybind = cmd+option+j=goto_split:bottom
 keybind = global:ctrl+grave_accent=toggle_quick_terminal
+quick-terminal-size = 35%,70%
