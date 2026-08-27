@@ -25,6 +25,8 @@ zstyle ':completion:*' menu select=3
 zstyle ':completion:*' original true
 zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*:directory-stack' list-colors '=(#b) #([0-9]#)*( *)==38;5;14=38;2;245;189;230'
+
 autoload -Uz compinit
 compinit
 
@@ -32,6 +34,10 @@ compinit
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
+
+# ─── cd history ───
+setopt AUTO_PUSHD
+setopt PUSHD_IGNORE_DUPS
 
 # ─── Aliases ───
 alias ls='ls -G'
