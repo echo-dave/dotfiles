@@ -21,11 +21,11 @@ bindkey -v
 # ─── Completion ───
 FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 zstyle ':completion:*' list-colors ''
-zstyle ':completion:*' menu select=3
 zstyle ':completion:*' original true
 zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*:directory-stack' list-colors '=(#b) #([0-9]#)*( *)==38;5;14=38;2;245;189;230'
+zstyle ':completion:*' menu select
 
 autoload -Uz compinit
 compinit
@@ -43,6 +43,7 @@ setopt PUSHD_IGNORE_DUPS
 alias ls='ls -G'
 alias du='du -h -d 1'
 alias ll='eza -ah --git --git-repos'
+alias rg="rg --hidden --glob '!.git'"
 alias ansicolors='msgcat --color=test'
 
 # ─── Plugins ───
