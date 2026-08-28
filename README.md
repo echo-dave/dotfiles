@@ -7,6 +7,7 @@
 - powerlevel10 for zsh
 - tmux 3.6 with catppuccin 2.3.0, tmux-sensible,
 - brewfile for deps and tools
+- Neovim config for 0.12+
 
 ## Clone with submodules
 
@@ -37,7 +38,9 @@ git reset --hard
 1. run Lazy - installs packages
 2. run Mason - install needed LSPs but check lsp folder for configs
 3. run Checkhealth - make sure everything is working
-4. add any additional parsers as needed
+4. add any additional parsers as needed to treesitter.lua
+5. `ln -s $HOME/.config.nvim/build-nvim-parser $HOME/.local/bin && source`
+6. in nvim run :TSInstall to build all parsers
 
 > [!NOTE]
 > Tmux 3.7 needs a command input fix, but we've worked around it in the mean time as per [this issue](https://github.com/catppuccin/tmux/issues/600?utm_source=chatgpt.com)
@@ -46,6 +49,9 @@ git reset --hard
 > Here's the [Catppuccin Color Palette](https://catppuccin.com/palette/)
 
 ## SSH commit signing
+
+> [!NOTE]
+> I actually went back to gpg signing after exploring ssh on a reconfig. leaving this for reference
 
 ```bash
 ssh-keygen -t ed25519 -C "your-email@example.com"
