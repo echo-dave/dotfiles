@@ -28,8 +28,10 @@ gh ext install meiji163/gh-notify
 
 ## Stow configs
 
+May need to stow individual folders for nvim, tmux, and ghostty. Make sure they don't exist in .config dir
+
 ```bash
-stow --adopt .
+stow --adopt /*
 git reset --hard
 ```
 
@@ -39,7 +41,7 @@ git reset --hard
 2. run Mason - install needed LSPs but check lsp folder for configs
 3. run Checkhealth - make sure everything is working
 4. add any additional parsers as needed to treesitter.lua
-5. `ln -s $HOME/.config.nvim/build-nvim-parser $HOME/.local/bin && source`
+5. `ln -s $HOME/.config/nvim/build-nvim-parser $HOME/.local/bin && source $HOME/.zshrc`
 6. in nvim run :TSInstall to build all parsers
 
 > [!NOTE]
