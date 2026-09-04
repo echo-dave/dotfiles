@@ -18,7 +18,7 @@ _fzf_compgen_dir() {
 # https://catppuccin.com/palette/
 # https://github.com/catppuccin/fzf/blob/main/themes/catppuccin-fzf-mocha.sh
 export FZF_DEFAULT_OPTS=" \
---color=fg:#cdd6f4,fg+:#b4befe,bg:-1,bg+:#262626 \
+--color=fg:#cdd6f4,fg+:#b4befe,bg:#1e1e2e,bg+:#262626 \
 --color=hl:#f38ba8,hl+:#eba0ac,info:#cba6f7,marker:#b4befe \
 --color=prompt:#cba6f7,spinner:#f5e0dc,pointer:#d0d0d0,header:#f38ba8 \
 --color=border:#89b4fa,label:#cdd6f4,query:#d9d9d9 \
